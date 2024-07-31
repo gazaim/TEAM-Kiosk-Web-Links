@@ -1,10 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TEAM</title>
-  <body>
-    <h1>TEAM</h1>
-  </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage with Tiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .tile {
+            width: 200px;
+            height: 150px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .tile:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
+<body>
+    <a href="https://www.example.com" class="tile">Example 1</a>
+    <a href="https://www.example2.com" class="tile">Example 2</a>
+    <a href="https://www.example3.com" class="tile">Example 3</a>
+    <a href="https://www.example4.com" class="tile">Example 4</a>
+    <a href="https://www.example5.com" class="tile">Example 5</a>
+    <a href="https://www.example6.com" class="tile">Example 6</a>
+    <a href="https://www.example7.com" class="tile">Example 7</a>
+    <a href="https://www.example8.com" class="tile">Example 8</a>
+</body>
 </html>
